@@ -1,0 +1,30 @@
+<div class="container">
+  <!-- <div class="row" centered>
+    <div class="col-xs-12 col-md-6 col-lg-6"> -->
+
+      <form (submit)="onUserCreate(userForm)" #userForm="ngForm"> 
+      <div class="form-group" > 
+        <input ngModel name="name" type="text" class="form-control" placeholder="Enter Name"  />
+      </div>
+      <div class="form-group">
+        <input ngModel name="age" type="text" class="form-control" placeholder="Enter Age"  />
+      </div>
+      <div class="form-group">
+        <input ngModel name="admno" type="text" class="form-control" placeholder="Enter Admission Number"  />
+      </div>
+      <div class="form-group">
+         <input ngModel name="rollno" type="text" class="form-control" placeholder="Enter Roll Number" />
+      </div>  
+      <div class="form-group">
+        <input ngModel name="college" type="text" class="form-control" placeholder="Enter College"  />
+      </div>
+      <hr>
+      <div class="form-group">
+        <button class="btn btn-primary">SAVE</button>
+     
+      </div>
+
+    </form>
+    <!-- </div>
+  </div> -->
+</div>
